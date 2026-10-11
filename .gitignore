@@ -1,0 +1,29 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Streamlit
+.streamlit/
+
+# Generated outputs and uploaded invoice copies
+outputs/*
+!outputs/.gitkeep
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
